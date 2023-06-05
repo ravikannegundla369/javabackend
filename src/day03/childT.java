@@ -1,3 +1,5 @@
+package day03;
+
 public class childT {
     public static void main(String args[]) {
         man a = new man();

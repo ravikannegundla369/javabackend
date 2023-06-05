@@ -1,4 +1,6 @@
-  class adta extends department{
+package day03;
+
+class adta extends department{
 
     @Override
     int getDepartmentSize(){

@@ -1,3 +1,5 @@
+package day03;
+
 public class product {
 
     private double price;
