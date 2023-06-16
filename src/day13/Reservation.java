@@ -28,7 +28,7 @@ public class Reservation {
             System.out.println("Requested seats not available :-(");
         }
         System.out.println(Thread.currentThread().getName() + " leaving.");
-        System.out.println("---------------------This thread is Completed -------------------------");
+        System.out.println("---------------------This thread is Completed successfully -------------------------");
     }
 }
 

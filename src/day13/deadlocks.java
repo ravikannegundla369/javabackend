@@ -23,12 +23,12 @@ public class deadlocks {
         Thread t2 = new Thread() {
             public void run() {
                 synchronized (resource2) {
-                    System.out.println("Thread 2: locked resource 2");
+                    System.out.println("now thread 2: locked resource 2");
 
                     try { Thread.sleep(100);} catch (Exception e) {}
 
                     synchronized (resource1) {
-                        System.out.println("Thread 2: locked resource 1");
+                        System.out.println("now thread 2: locked resource 1");
                     }
                 }
             }
