@@ -1,4 +1,4 @@
-package day0405;
+package day04_05;
 
 public interface Interface1 {
 

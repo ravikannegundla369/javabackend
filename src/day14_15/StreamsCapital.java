@@ -1,4 +1,4 @@
-package day1415;
+package day14_15;
 
 import java.util.Arrays;
 import java.util.Comparator;

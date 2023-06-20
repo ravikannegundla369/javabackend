@@ -1,4 +1,4 @@
-package day0405;
+package day04_05;
 
 public class ChildClass extends ConstructorOverloading {
     private int childVariable;
