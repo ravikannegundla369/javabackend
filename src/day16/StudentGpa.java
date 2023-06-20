@@ -1,7 +1,5 @@
 package day16;
-
 import java.util.ArrayList;
-
 public class StudentGpa {
     public static void main(String[] args) {
 
