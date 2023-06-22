@@ -30,7 +30,6 @@ public class Student {
     public static void main(String[] args) {
         // Create the HashMap of Student objects
         HashMap<String, Student> studentMap = new HashMap<>();
-
         // Add 8 Student objects to the HashMap
         studentMap.put("ravi", new Student("ravi", "kannegundla", 3.8));
         studentMap.put("kamal", new Student("kamal", "S", 3.9));
@@ -40,19 +39,16 @@ public class Student {
         studentMap.put("priya", new Student("priya", "P", 3.6));
         studentMap.put("siri", new Student("siri", "P", 3.2));
         studentMap.put("sujith", new Student("sujith", "J", 3.4));
-
         // Print the HashMap using Entry Set
         System.out.println("Printing using Entry Set:");
         for (Map.Entry<String, Student> entry : studentMap.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
         }
         System.out.println();
-
         // Print the HashMap using map's forEach method
         System.out.println("Printing using map's forEach method:");
         studentMap.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
         System.out.println();
-
         // Print the HashMap using keySet and Iterator
         System.out.println("Printing using keySet and Iterator:");
         Iterator<String> iterator = studentMap.keySet().iterator();
